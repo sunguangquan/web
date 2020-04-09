@@ -1,7 +1,14 @@
 /* 通用css */
-nav ul{
-    list-style: none;
+body,html{
     padding: 0;
-    display: flex;
-    justify-content: space-evenly;
+    margin: 0;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.min-logo{
+    border: 1px solid blanchedalmond;
+    border-radius: 0.2em;
 }
