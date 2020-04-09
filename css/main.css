@@ -4,11 +4,43 @@ body,html{
     margin: 0;
 }
 
-.logo img{
-    width: 100%;
+.logo{
+    background-color: blue;
 }
-
+.logo-text{
+    color: white;
+    font-size: 4rem;
+}
 .min-logo{
     border: 1px solid blanchedalmond;
     border-radius: 0.2em;
+    padding: 5px 15px;
+    font-size: 3rem;
+    color: red;
+    background-color: blue;
+    text-shadow: 3px 5px 5px white;
+}
+
+.kp{
+    margin-top: 40px;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.kp .row{
+    margin-bottom: 20px;
+}
+
+.foot{
+    height: 100px;
+    background-color: thistle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
